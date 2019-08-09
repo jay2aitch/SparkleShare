@@ -191,9 +191,9 @@ namespace SparkleShare {
         }
 
 
-        public override void Quit ()
+        public override void PlatformQuit ()
         {
-            base.Quit ();
+            //TODO: Add quit and cleanup methods
         }
     }
 }
